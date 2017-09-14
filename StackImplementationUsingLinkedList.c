@@ -4,7 +4,7 @@ struct Node
 {
    int data;
    struct Node *next;
-}*head = NULL;
+}*top = NULL;
 
 void push(int);
 void pop();
